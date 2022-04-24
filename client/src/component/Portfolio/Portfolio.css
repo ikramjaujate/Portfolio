@@ -1,0 +1,244 @@
+.Portfolio {
+  position: relative;
+}
+.Portfolio .box {
+  border-radius: 10px;
+  position: relative;
+}
+.Portfolio .box:hover {
+  background: none;
+  transform: translateY(-0);
+}
+
+.Portfolio .img {
+  height: 200px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.Portfolio img {
+  width: 100%;
+
+  transition: 0.5s;
+}
+.Portfolio .box .img:hover img {
+  transform: scale(1.2);
+}
+.Portfolio .category {
+  margin: 20px 0 30px 0;
+  text-transform: uppercase;
+}
+.Portfolio .category span {
+  color: #01e1ff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.Portfolio .arrow {
+  position: absolute;
+  right: 30px;
+  bottom: 11%;
+  transform: rotate(-45deg);
+  color: #01e1ff;
+  opacity: 0;
+  transition: 0.5s;
+}
+.Portfolio .title:hover .arrow {
+  opacity: 1;
+}
+.Portfolio h2 {
+  font-size: 18px;
+  transition: 0.5s;
+  padding-bottom: 30px;
+}
+.Portfolio .box:hover h2 {
+  color: #01e1ff;
+}
+.Portfolio .box:hover {
+  color: black;
+}
+/*------------popup--------*/
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+.overlay {
+  background-color: #ecf0f3;
+}
+.modal-content {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  line-height: 1.4;
+  background: #f0f3f5;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 85%;
+  min-width: 85%;
+  z-index: 9999;
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.modal-text {
+  padding: 0 100px 0 50px;
+}
+.modal-text h1 {
+  margin: 20px 0 20px 0;
+  font-size: 30px;
+}
+.modal-text p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.modal-text button {
+  margin-right: 20px;
+  color: #01e1ff;
+}
+.modal-text button i {
+  margin-left: 10px;
+}
+.modal-text button.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0 0;
+  font-size: 20px;
+}
+.modal-text button.close-modal i {
+  margin: 0;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.resume-years{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hm_hyperModalWrapper .hm_hyperModalContentWrapper{
+  background-color: #ecf0f3;
+}
+.styled-table thead tr {
+  background-color: #3abdff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: large;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #3abdff;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #3abdff;
+}
+.grid-table{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 4rem 1rem 4rem!important;
+}
+.marginBtn{
+  margin-bottom: 1rem!important;
+}
+.titre{
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div#hyper-modal-wrapper_component_id {
+  z-index: 100000;
+}
+.hm_hyperModalWrapper .hm_hyperModalContentWrapper {
+  position: relative;
+  background-color: #ffffff;
+  width: max-content!important;
+  height: max-content!important;
+  z-index: 5;
+  border-radius: 10px;
+  overflow: auto;
+}
+.primaryBtn {
+
+  margin: 20px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 15px;
+font-weight: bold;
+  border: none;
+  color: white;
+  background: #18b4db;
+  transition: all 0.25s ease;
+}
+
+.row-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+/*------------popup--------*/
+@media (max-width: 768px) {
+  .modal,
+  .overlay {
+    overflow: scroll;
+  }
+
+  .modal .modal-img {
+    margin: 50px 0 50px 0;
+  }
+  .modal-content {
+    flex-direction: column;
+  }
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}

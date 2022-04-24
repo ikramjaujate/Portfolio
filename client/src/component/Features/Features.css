@@ -1,0 +1,52 @@
+.features .box {
+  padding: 30px;
+}
+.features .box h2 {
+  margin: 20px 0 20px 0;
+}
+
+.features .box p {
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+.grid-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+.box.btn_shadow{
+  text-align: center;
+}
+.btn_shadow:hover .progress .ligne{
+  background-color: black;
+}
+.progress{
+  margin: 20px 0px!important;
+}
+.features .box i {
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.features .box:hover p {
+  color: white;
+}
+.features .box:hover i {
+  color: white;
+  opacity: 1;
+}
+.title-dev{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features .box:hover .progress .ligne{
+  background-color: white!important;
+
+}
+
+.features .box:hover .progress .ligne span{
+  color: #878e99!important;
+
+}

@@ -1,0 +1,16 @@
+.project-futur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+    
+}
+
+.more{
+
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+  portfolio:
+    image: node:14.15.1
+    container_name: portfolio
+    restart: unless-stopped
+    volumes:
+      - ./www:/var/www
+    expose:
+      - 8080
+    networks:
+      vps-ikram-network:
+        ipv4_address: 192.168.10.51
+    command: bash -c "cd /var/www && npm i --prod && npm run start"
+
+#--------------------
+
+networks:
+    vps-ikram-network:
+      external: true
