@@ -82,5 +82,16 @@ const Portfolio_data = [
     data: [{
       image: "tcp.jpg"}]
   },
+  {
+    id: 8,
+    category: "Conference",
+    totalLike: "1H",
+    title: "Cybersecurity Challenge Conference",
+    image: "ip.jpeg",
+    explanation: "In order to understand what is the OSI model for the third year Security course, I decided to follow this course.",
+    explanation2: "This course has allowed me to learn what the OSI model is and to create my own computer network using Cisco Packet Tracer. ",
+    data: [{
+      image: "tcp.jpg"}]
+  },
 ]
 export default Portfolio_data

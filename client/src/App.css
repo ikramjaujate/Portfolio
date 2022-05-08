@@ -21,6 +21,10 @@ body {
 }
 .f_flex {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
@@ -64,14 +68,22 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
+.right{
+  margin: 0 auto!important;
+}
+.left{
+  width: 42rem!important;
+  margin-right: 3rem;
+}
 .row,
-.left,
 .right {
-  width: 50%;
+  width: 35rem!important;
 }
 .top {
   margin-top: 80px;
+
 }
+
 .mtop {
   margin-top: 40px;
 }
@@ -122,12 +134,62 @@ footer p {
 }
 /*----------Footer---------*/
 @media (max-width: 768px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   .grid {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .grid-skills{
     grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .row-btn{
+    justify-content: center;
+    
+  }
+  .heading h4{
+    font-size: 13px;
+    text-align: center;
+  }
+  .container {
+    max-width: 95%;
+    margin: 2rem!important;
+}
+
+  .Resume .content{
+    max-width: 70vw;
+    margin-left: 1.25rem;
+  }
+  .heading{
+   
+    text-align: center;
+  }
+  .hero .right_img img{
+    width: 80vw;
   }
   .left,
   .right {
     width: 100%;
   }
+  .education{
+    text-align: justify;
+    margin-left: 2rem;
+    font-size: 40px!important;
+  }
+  .left, .right{
+    width: 100%!important;
+  }
+  .modal-content{
+    top: 2% !important;
+
+  }
+  header{
+    line-height: 0;
+  }
+  
 }
 

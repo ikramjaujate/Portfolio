@@ -29,7 +29,7 @@
   margin-top: 30px;
 }
 .hero_btn {
-  margin-top: 20%;
+  margin: 2rem!important;
 }
 .hero_btn h4 {
   font-weight: 500;
@@ -59,7 +59,7 @@
   height: 20px;
 }
 .hero .left {
-  margin-right: 10%;
+  /*margin-right: 10%;*/
 }
 .hero .right {
   width: 40%;
@@ -71,12 +71,14 @@
   border-radius: 10px;
   height: 580px;
   width: 510px;
-  margin-top: 10%;
+  /*margin-top: 10%;*/
+  margin: 3rem auto!important;
+  margin-top: 0!important;
 }
 .hero .right_img img {
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  right: 10%;
+  right: 10%;*/
   width: 510px;
 }
 .btn_shadow:hover svg{
@@ -84,7 +86,7 @@
 }
 
 @media (max-width: 768px) {
-  .hero .right,
+  /*.hero .right,
   .hero .left {
     width: 100%;
     margin-left: 20px;
@@ -97,5 +99,5 @@
   .hero .right_img {
     width: 100%;
     height: 54vh;
-  }
+  }*/
 }

@@ -44,58 +44,72 @@ const Portfolio = () => {
             <table class="styled-table">
               <thead>
                 <tr>
+                  <th>Theme</th>
                   <th>Topic</th>
-                  <th>Type</th>
+                  <th>Location</th>
                   <th>Hours Spent</th>
                   <th>Hours Counted</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Karate</td>
                   <td>SPORT</td>
+                  <td>Karate</td>
+                  <td>Polideportivo Los Cantos, Madrid & Turnzaal Campus Wemmel, Wemmel</td>
                   <td>+100H</td>
                   <td>10H</td>
                 </tr>
                 <tr class="active-row">
-                  <td>Advent of Cyber 2020</td>
                   <td>HACKATHON</td>
+                  <td>Advent of Cyber 2020</td>
+                  <td>At home</td>
                   <td>+40H</td>
                   <td>10H</td>
                 </tr>
                 <tr>
-                  <td>IT Junior</td>
                   <td>JOB STUDENT IN IT</td>
+                  <td>IT Junior</td>
+                  <td>Koning Albertstraat, 1600 Sint-Pieters-Leeuw</td>
                   <td>+100H</td>
                   <td>10H</td>
                 </tr>
                 <tr class="active-row">
-                  <td>Tutoring students</td>
                   <td>TUTORING</td>
+                  <td>Tutoring students</td>
+                  <td>EPHEC & at home</td>
                   <td>10H</td>
                   <td>10H</td>
                 </tr>
                 <tr>
+                  <td>E-learning : Frontend</td>
                   <td>React</td>
-                  <td>Online Course : Frontend</td>
+                  <td>At home</td>
                   <td>8H</td>
                   <td>08H</td>
                 </tr>
                 <tr class="active-row">
+                  <td>E-learning : Full Stack</td>
                   <td>NodeJS & MongoDB</td>
-                  <td>Online Course : Full Stack</td>
+                  <td>At home</td>
                   <td>10H</td>
                   <td>10H</td>
                 </tr>
                 <tr>
+                  <td>E-learning : Network</td>
                   <td>TCP / IP</td>
-                  <td>Online Course : Network</td>
+                  <td>At home</td>
                   <td>15H</td>
                   <td>10H</td>
                 </tr>
-
+                <tr class="active-row">
+                  <td>Conference</td>
+                  <td>Cybersecurity Challenge</td>
+                  <td>At home</td>
+                  <td>1H</td>
+                  <td>1H</td>
+                </tr>
                 <tr class='final'>
-                  <td colSpan={2}> </td>
+                  <td colSpan={3}> </td>
                   <td class='final'>Total :</td>
                   <td class='final'>68H</td>
                 </tr>

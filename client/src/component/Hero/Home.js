@@ -25,7 +25,15 @@ const Home = () => {
               Since mid-February I've been on internship at <span className="bnppf">BNP Paribas Fortis</span>  and I am really enjoying it. The level of requirement is much higher than I thought but this allows me to learn a lot of new concepts and techniques.
 
               This last study year is coming to an end and I will probably be graduated at the end of <span className="june">June 2022</span>.</p>
-            <div className='hero_btn d_flex'>
+           
+          </div>
+          <div className='right'>
+            <div className='right_img'>
+              <img className="image-ikram" src={'ikram2.png'} alt='' />
+            </div>
+          </div>
+        </div>
+        <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND ME ON</h4>
                 <div className='button'>
@@ -42,13 +50,6 @@ const Home = () => {
               </div>
 
             </div>
-          </div>
-          <div className='right'>
-            <div className='right_img'>
-              <img className="image-ikram" src={'ikram2.png'} alt='' />
-            </div>
-          </div>
-        </div>
       </section>
     </>
   )
