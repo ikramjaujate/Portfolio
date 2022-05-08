@@ -56,7 +56,7 @@ const Portfolio = () => {
                   <td>SPORT</td>
                   <td>Karate</td>
                   <td>Polideportivo Los Cantos, Madrid & Turnzaal Campus Wemmel, Wemmel</td>
-                  <td>+100H</td>
+                  <td>+1000H</td>
                   <td>10H</td>
                 </tr>
                 <tr class="active-row">

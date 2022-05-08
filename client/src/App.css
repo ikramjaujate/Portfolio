@@ -151,23 +151,77 @@ footer p {
     justify-content: center;
     
   }
+  .container.f_flex.top{
+   display: block!important;
+  }
   .heading h4{
     font-size: 13px;
     text-align: center;
   }
-  .container {
+  section#portfolio .container {
     max-width: 95%;
     margin: 2rem!important;
 }
 
   .Resume .content{
-    max-width: 70vw;
-    margin-left: 1.25rem;
+    max-width: 86vw;
+    margin-left: 1.7rem;
   }
   .heading{
    
     text-align: center;
   }
+  /*table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+  thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	*/
+	/*td { 
+	
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}*/
+	
+/*	td:before { 
+	
+		position: absolute;
+
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}*/
+	
+	/*
+	Label the data
+	
+	td:nth-of-type(1):before { content: "Theme"; }
+	td:nth-of-type(2):before { content: "Topic"; }
+	td:nth-of-type(3):before { content: "Location"; }
+	td:nth-of-type(4):before { content: "Hours Spent"; }
+	td:nth-of-type(5):before { content: "Hours Counted"; }*/
+
+  .resume-years {
+    text-align: center;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+  .hm_hyperModalWrapper .hm_hyperModalContentWrapper {
+
+    width: 24rem!important;
+    height: 40rem!important;
+
+}
   .hero .right_img img{
     width: 80vw;
   }
@@ -187,9 +241,49 @@ footer p {
     top: 2% !important;
 
   }
-  header{
-    line-height: 0;
+  .grid-table {
+    display: block!important;
+    
+    overflow: scroll!important;
+    /* padding: 0 5rem; */
+    margin: 0 0.5rem!important;
+    /* margin: 0 4rem 1rem 4rem!important; */
+}
+  .left.top h3{
+    text-align: center;
   }
-  
+  .left.top h1{
+    text-align: center;
+  }
+  .container.f_flex.top {
+    margin: 2rem;
+}
+  .container.f_flex.top.left{
+    margin-right: 0rem!important;
+    display:flex;
+    gap:3rem;
+    flex-direction: column!important;
+    justify-content:center!important;
+    align-items:center!important;
+  }
+  header{
+    line-height: 4;
+  }
+  .d_flex {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+  .hero .right_img {
+    border-radius: 10px;
+    margin-top: 3rem!important;
+    margin-bottom: 0!important;
+    height: auto;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
 }
 

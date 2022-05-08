@@ -44,9 +44,11 @@ const Portfolio_data = [
     category: "TUTORING",
     totalLike: "10H",
     title: "Support 1st year students in their integration into higher education. ",
-    image: ".png",
+    image: "ephec.jpg",
     explanation: "Last year, we had to implement a web app for the project in DEV II and for that we decided to use the React framework.",
-    explanation2: " Although I liked it a lot, I decided to improve my React skills as I considered that I can't use React in the best way. That's why I decided to start an online course at OpenClassRooms. This course was not only very interesting, but for the integration project I was able to improve my coding skills."
+    explanation2: " Although I liked it a lot, I decided to improve my React skills as I considered that I can't use React in the best way. That's why I decided to start an online course at OpenClassRooms. This course was not only very interesting, but for the integration project I was able to improve my coding skills.",
+    data: [{
+      image: "Group 1tuto.png"}]
   },
   {
     id: 5,
@@ -67,7 +69,7 @@ const Portfolio_data = [
     title: "Online course in order to improve my IT skills (FRONTEND) ",
     image: "react.png",
     explanation: "Last year, we had to implement a web app for the project in DEV II and for that we decided to use the React framework.",
-    explanation2: " Although I liked it a lot, I decided to improve my React skills as I considered that I can't use React in the best way. That's why I decided to start an online course at OpenClassRooms. This course was not only very interesting, but for the integration project I was able to improve my coding skills.",
+    explanation2: " Although I liked it a lot, I decided to improve my React skills as I consider that there are still many things to be discovered . That's why I decided to start an online course at OpenClassRooms. This course was not only very interesting, but for the integration project I was able to improve my coding skills.",
     data: [{
       image: "Untitledreact-form.jpg"}]
   },
@@ -77,7 +79,7 @@ const Portfolio_data = [
     totalLike: "+10H",
     title: "Online course in order to improve my network knowledge",
     image: "ip.jpeg",
-    explanation: "In order to understand what is the OSI model for the third year Security course, I decided to follow this course.",
+    explanation: "In order to understand what is the OSI model for the 3rd degree security course, I decided to follow this course.",
     explanation2: "This course has allowed me to learn what the OSI model is and to create my own computer network using Cisco Packet Tracer. ",
     data: [{
       image: "tcp.jpg"}]
@@ -87,11 +89,11 @@ const Portfolio_data = [
     category: "Conference",
     totalLike: "1H",
     title: "Cybersecurity Challenge Conference",
-    image: "ip.jpeg",
-    explanation: "In order to understand what is the OSI model for the third year Security course, I decided to follow this course.",
-    explanation2: "This course has allowed me to learn what the OSI model is and to create my own computer network using Cisco Packet Tracer. ",
+    image: "tet.png",
+    explanation: "The Cybersecurity Challenge is an event for computer science students. This competition allows each group of students to perform various cybersecurity challenges. ",
+    explanation2: "Each time a challenge has been overcome, students receive points for the overall ranking. In this case the conference of this challenge was very interesting although I didn't have the opportunity to participate as I didn't have time with the internship.",
     data: [{
-      image: "tcp.jpg"}]
+      image: "Group 1.png"}]
   },
 ]
 export default Portfolio_data
