@@ -53,28 +53,28 @@ const Portfolio = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>SPORT</td>
+                  <td>External Activity</td>
                   <td>Karate</td>
                   <td>Polideportivo Los Cantos, Madrid & Turnzaal Campus Wemmel, Wemmel</td>
-                  <td>+1000H</td>
+                  <td>+100H</td>
                   <td>10H</td>
                 </tr>
                 <tr class="active-row">
-                  <td>HACKATHON</td>
+                  <td>Hackathon</td>
                   <td>Advent of Cyber 2020</td>
                   <td>At home</td>
                   <td>+40H</td>
                   <td>10H</td>
                 </tr>
                 <tr>
-                  <td>JOB STUDENT IN IT</td>
+                  <td>Job Student in IT</td>
                   <td>IT Junior</td>
                   <td>Koning Albertstraat, 1600 Sint-Pieters-Leeuw</td>
                   <td>+100H</td>
                   <td>10H</td>
                 </tr>
                 <tr class="active-row">
-                  <td>TUTORING</td>
+                  <td>Tutoring</td>
                   <td>Tutoring students</td>
                   <td>EPHEC & at home</td>
                   <td>10H</td>
@@ -108,10 +108,18 @@ const Portfolio = () => {
                   <td>1H</td>
                   <td>1H</td>
                 </tr>
+                <tr>
+                  <td>Conference</td>
+                  <td>Agoria Company Tour</td>
+                  <td>At home</td>
+                  <td>1H</td>
+                  <td>1H</td>
+                </tr>
                 <tr class='final'>
-                  <td colSpan={3}> </td>
-                  <td class='final'>Total :</td>
-                  <td class='final'>68H</td>
+                  <td colSpan={2}> </td>
+                  <td class='final'>Total</td>
+                  <td class='final'>+285H</td>
+                  <td class='final'>70H</td>
                 </tr>
 
               </tbody>

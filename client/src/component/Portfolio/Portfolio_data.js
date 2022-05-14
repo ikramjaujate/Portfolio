@@ -45,8 +45,8 @@ const Portfolio_data = [
     totalLike: "10H",
     title: "Support 1st year students in their integration into higher education. ",
     image: "ephec.jpg",
-    explanation: "Last year, we had to implement a web app for the project in DEV II and for that we decided to use the React framework.",
-    explanation2: " Although I liked it a lot, I decided to improve my React skills as I considered that I can't use React in the best way. That's why I decided to start an online course at OpenClassRooms. This course was not only very interesting, but for the integration project I was able to improve my coding skills.",
+    explanation: "During the second year, I was a tutor. The aim is to help students in the lower grades in the subjects in which they have difficulties. ",
+    explanation2: " I had the opportunity to help students in analog electronics and OS. I consider that this experience was essential to improve in my studies because the fact of teaching a subject to another person allowed me to understand it better. It was also an excellent opportunity to meet new people.",
     data: [{
       image: "Group 1tuto.png"}]
   },
@@ -95,5 +95,16 @@ const Portfolio_data = [
     data: [{
       image: "Group 1.png"}]
   },
+  {
+    id: 9,
+    category: "Conference",
+    totalLike: "1H",
+    title: "Agoria Company Tour",
+    image: "logoagoria.png",
+    explanation: "The Agoria Company Tour connects higher education students with technology companies. The participating technology companies - always members of Agoria - welcome the students for a guided tour of the company which is co-organized by Agoria.  ",
+    explanation2: "During this visit, they can inform them about their activities and the technologies they work with.   ",
+    data: [{
+      image: "agoria.png"}]
+  }
 ]
 export default Portfolio_data
