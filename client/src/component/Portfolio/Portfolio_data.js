@@ -37,7 +37,13 @@ const Portfolio_data = [
     totalLike: "+10H",
     title: "Job student as IT Junior ",
     image: "./image/portfolio-03.jpg",
-    explanation: ""
+    explanation: "I have had the opportunity to work as an IT junior with MasterServices.",
+    explanation2: "It was my interesting since I had the opportunity to make their website, also help with the installation and operation of the company's computers and more.",
+    data: [{
+      image: "Group 1-3.png",
+    },{
+      image: "Group 1-2.png"
+    }]
   },
   {
     id: 4,
